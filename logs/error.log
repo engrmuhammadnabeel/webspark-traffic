@@ -1,0 +1,616 @@
+[20-Sep-2025 14:14:45 Europe/Berlin] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\webspark-traffic\includes\header.php on line 3
+[20-Sep-2025 14:14:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\webspark-traffic\includes\header.php:3
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\register.php(26): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\includes\header.php on line 3
+[20-Sep-2025 14:14:59 Europe/Berlin] PHP Warning:  require_once(../config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\webspark-traffic\includes\header.php on line 3
+[20-Sep-2025 14:14:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\webspark-traffic\includes\header.php:3
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\register.php(26): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\includes\header.php on line 3
+[20-Sep-2025 14:30:00 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:30:19 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:31:17 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:32:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:35:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:35:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:35:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 28
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 88
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 188
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 189
+[20-Sep-2025 14:41:02 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_URI" in C:\xampp\htdocs\webspark-traffic\config.php on line 189
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 28
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 88
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 188
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 189
+[20-Sep-2025 14:41:27 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_URI" in C:\xampp\htdocs\webspark-traffic\config.php on line 189
+[20-Sep-2025 14:54:37 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:56:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 14:56:11 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[20-Sep-2025 18:32:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:57:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:58:31 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:58:31 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:58:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:00:42 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:13:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:13:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:13:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:13:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:42 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:42 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:50 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:53 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:14:56 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:32:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:32:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:33:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:34:51 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:35:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:35:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:35:37 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:35:37 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:35:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:36:28 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:36:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:36:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:36:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:49:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:50:53 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:50:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:50:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:51:05 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:51:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:51:15 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 22:55:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:04:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:04:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:04:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:04:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:17 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:05:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:05:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webspark-traffic\dashboard.php:9
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\dashboard.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 9
+[08-Oct-2025 23:07:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:15:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:15:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:15:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:15:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:15:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webspark-traffic\dashboard.php:9
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\dashboard.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 9
+[08-Oct-2025 23:16:53 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:16:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:16:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:16:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webspark-traffic\dashboard.php:9
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\dashboard.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 9
+[08-Oct-2025 23:17:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:17:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:18:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:18:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:18:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:18:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in C:\xampp\htdocs\webspark-traffic\dashboard.php:9
+Stack trace:
+#0 C:\xampp\htdocs\webspark-traffic\dashboard.php(9): PDO->prepare('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 9
+[08-Oct-2025 23:23:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:23:32 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:23:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:23:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:23:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 26
+[08-Oct-2025 21:23:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 65
+[08-Oct-2025 21:23:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 138
+[08-Oct-2025 23:24:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:24:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 26
+[08-Oct-2025 21:24:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 65
+[08-Oct-2025 21:24:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 138
+[08-Oct-2025 23:24:13 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:24:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:24:16 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:24:17 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 21:24:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 26
+[08-Oct-2025 21:24:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 65
+[08-Oct-2025 21:24:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\webspark-traffic\dashboard.php on line 138
+[08-Oct-2025 23:24:23 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:24:24 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:24:28 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:25:28 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:26:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:26:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:27:17 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:27:18 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:28:00 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:28:05 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:28:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:29:05 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:30:03 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:31:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:31:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:32:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:32:18 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:35:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:01 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:05 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:08 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:11 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:29 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:33 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:33 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:42:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:03 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:37 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:44:42 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:45:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:45:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:45:50 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:15 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:15 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:47:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:48:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:48:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:49:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:49:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[08-Oct-2025 23:49:31 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:15:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:15:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:20:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:20:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:20:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:20:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:20:51 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:21:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:21:24 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:21:53 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:33:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:34:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 08:34:12 UTC] Feedback Form Data - Subject: report, Type: bug, User ID: 6
+[09-Oct-2025 08:34:12 UTC] Feedback submitted successfully for user: 6
+[09-Oct-2025 10:42:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:42:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:43:54 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:12 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:14 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:37 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:44:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:45:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:45:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:50:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:51:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:51:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:54:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:54:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:55:34 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:55:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:06:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:06:48 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:35:26 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:35:28 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:35:28 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:35:28 UTC] Password verify result: false
+[09-Oct-2025 09:35:28 UTC] Input password: Admin123!
+[09-Oct-2025 09:35:28 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[09-Oct-2025 11:38:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:38:09 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:38:09 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:38:09 UTC] Password verify result: false
+[09-Oct-2025 09:38:09 UTC] Input password: Admin123!
+[09-Oct-2025 09:38:09 UTC] Stored hash: $2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi
+[09-Oct-2025 11:39:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:39:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:39:47 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:39:47 UTC] Password verify result: false
+[09-Oct-2025 09:39:47 UTC] Input password: Admin123!
+[09-Oct-2025 09:39:47 UTC] Stored hash: $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+[09-Oct-2025 11:39:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:39:58 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:39:58 UTC] Password verify result: false
+[09-Oct-2025 09:39:58 UTC] Input password: admin123!
+[09-Oct-2025 09:39:58 UTC] Stored hash: $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+[09-Oct-2025 11:40:03 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:40:03 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:40:03 UTC] Password verify result: false
+[09-Oct-2025 09:40:03 UTC] Input password: Admin123!
+[09-Oct-2025 09:40:03 UTC] Stored hash: $2y$10$r3B2uLkKJm8eW9zQpNvTxOcV7fI2hG5sA1qPwE0nM4lR6gYt8dC
+[09-Oct-2025 11:40:08 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:40:11 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:40:18 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:40:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:41:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:42:05 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:42:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:42:06 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:42:06 UTC] Password verify result: true
+[09-Oct-2025 09:42:06 UTC] Input password: Admin123!
+[09-Oct-2025 09:42:06 UTC] Stored hash: $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+[09-Oct-2025 11:42:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:42:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:42:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:42:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:42:25 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+    [role] => superadmin
+)
+
+[09-Oct-2025 09:42:25 UTC] Password verify result: true
+[09-Oct-2025 09:42:25 UTC] Input password: Admin123!
+[09-Oct-2025 09:42:25 UTC] Stored hash: $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+[09-Oct-2025 11:42:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:50 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:53 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:43:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:44:01 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:26 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:48:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:01 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:13 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:24 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:24 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:49:48 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:17 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:25 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:50 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:50:50 UTC] Feedback Form Data - Subject: bug bug, Type: bug, User ID: 6
+[09-Oct-2025 09:50:50 UTC] Feedback submitted successfully for user: 6
+[09-Oct-2025 11:50:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:50:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:51:08 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:51:08 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:51:15 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:58:59 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:03 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:22 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 09:59:22 UTC] Feedback Form Data - Subject: feature, Type: feature, User ID: 6
+[09-Oct-2025 09:59:22 UTC] Feedback submitted successfully for user: 6
+[09-Oct-2025 11:59:26 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:42 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:59:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:05:10 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:05:24 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 10:05:24 UTC] Feedback Form Data - Subject: general, Type: general, User ID: 6
+[09-Oct-2025 10:05:24 UTC] Feedback submitted successfully for user: 6
+[09-Oct-2025 12:05:27 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:05:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:05:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:05:45 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:36:56 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:37:35 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:37:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:37:47 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:37:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:15 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:18 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:23 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:38:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:23 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:32 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:39:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:01 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:04 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:11 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:11 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:21 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:23 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:30 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:46:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:47:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:47:38 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:47:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:47:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:47:54 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:51:51 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:51:51 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:51:52 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:51:57 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:51:58 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:53:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:59:46 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:59:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:59:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 12:59:55 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:06 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:00:06 UTC] Login Attempt: User: MI12345, reCAPTCHA: provided
+[09-Oct-2025 11:00:06 UTC] reCAPTCHA Debug: Function called. Response: provided
+[09-Oct-2025 11:00:06 UTC] reCAPTCHA Debug: Proceeding with real verification
+[09-Oct-2025 11:00:07 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[09-Oct-2025 11:00:07 UTC] Login Successful: User: MI12345, ID: 8
+[09-Oct-2025 13:00:07 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:36 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:39 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:40 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:41 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:43 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 13:00:49 Europe/Berlin] PHP Warning:  Constant ROOT_PATH already defined in C:\xampp\htdocs\webspark-traffic\config.php on line 17
+[09-Oct-2025 11:04:15 UTC] Login Attempt: User: MI12345, reCAPTCHA: provided
+[09-Oct-2025 11:04:15 UTC] reCAPTCHA Debug: Function called. Response: provided
+[09-Oct-2025 11:04:15 UTC] reCAPTCHA Debug: Proceeding with real verification
+[09-Oct-2025 11:04:15 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[09-Oct-2025 11:04:15 UTC] Login Successful: User: MI12345, ID: 8
+[09-Oct-2025 11:27:23 UTC] Login Attempt: User: MI12345, reCAPTCHA: provided
+[09-Oct-2025 11:27:23 UTC] reCAPTCHA Debug: Function called. Response: provided
+[09-Oct-2025 11:27:23 UTC] reCAPTCHA Debug: Proceeding with real verification
+[09-Oct-2025 11:27:24 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[09-Oct-2025 11:27:24 UTC] Login Successful: User: MI12345, ID: 8
+[09-Oct-2025 11:29:03 UTC] Registration Attempt: User: NS123, Email: Nsadiq@gmail.com, reCAPTCHA: provided
+[09-Oct-2025 11:29:03 UTC] reCAPTCHA Debug: Function called. Response: provided
+[09-Oct-2025 11:29:03 UTC] reCAPTCHA Debug: Proceeding with real verification
+[09-Oct-2025 11:29:04 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[09-Oct-2025 11:29:04 UTC] Registration Successful: User: NS123, Email: Nsadiq@gmail.com
+[09-Oct-2025 11:29:14 UTC] Login Attempt: User: NS123, reCAPTCHA: provided
+[09-Oct-2025 11:29:14 UTC] reCAPTCHA Debug: Function called. Response: provided
+[09-Oct-2025 11:29:14 UTC] reCAPTCHA Debug: Proceeding with real verification
+[09-Oct-2025 11:29:15 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[09-Oct-2025 11:29:15 UTC] Login Successful: User: NS123, ID: 9
+[09-Oct-2025 11:29:24 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+    [role] => superadmin
+)
+
+[09-Oct-2025 11:29:24 UTC] Password verify result: false
+[09-Oct-2025 11:29:24 UTC] Input password: admin123!
+[09-Oct-2025 11:29:24 UTC] Stored hash: $2y$10$BbsaYSa9v1MPTASA8vd/tOTvh5evIVi40AXuiurhMnFR.hrJVGXW.
+[09-Oct-2025 11:30:18 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+    [role] => superadmin
+)
+
+[09-Oct-2025 11:30:18 UTC] Password verify result: true
+[09-Oct-2025 11:30:18 UTC] Input password: Admin123!
+[09-Oct-2025 11:30:18 UTC] Stored hash: $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+[09-Oct-2025 11:53:24 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+    [role] => superadmin
+)
+
+[09-Oct-2025 11:53:24 UTC] Password verify result: true
+[09-Oct-2025 11:53:24 UTC] Input password: Admin123!
+[09-Oct-2025 11:53:24 UTC] Stored hash: $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+[26-Oct-2025 12:07:30 UTC] Registration Attempt: User: MU009, Email: Mu009@gmail.com, reCAPTCHA: provided
+[26-Oct-2025 12:07:30 UTC] reCAPTCHA Debug: Function called. Response: provided
+[26-Oct-2025 12:07:30 UTC] reCAPTCHA Debug: Proceeding with real verification
+[26-Oct-2025 12:07:31 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[26-Oct-2025 12:07:31 UTC] Registration Successful: User: MU009, Email: Mu009@gmail.com
+[26-Oct-2025 12:07:44 UTC] Login Attempt: User: MU123, reCAPTCHA: provided
+[26-Oct-2025 12:07:44 UTC] reCAPTCHA Debug: Function called. Response: provided
+[26-Oct-2025 12:07:44 UTC] reCAPTCHA Debug: Proceeding with real verification
+[26-Oct-2025 12:07:44 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[26-Oct-2025 12:07:44 UTC] Login Failed: Invalid credentials for user: MU123
+[26-Oct-2025 12:08:01 UTC] Login Attempt: User: MU009, reCAPTCHA: provided
+[26-Oct-2025 12:08:01 UTC] reCAPTCHA Debug: Function called. Response: provided
+[26-Oct-2025 12:08:01 UTC] reCAPTCHA Debug: Proceeding with real verification
+[26-Oct-2025 12:08:01 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[26-Oct-2025 12:08:01 UTC] Login Successful: User: MU009, ID: 10
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 30
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 94
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in C:\xampp\htdocs\webspark-traffic\config.php on line 97
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in C:\xampp\htdocs\webspark-traffic\config.php on line 101
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\webspark-traffic\config.php on line 102
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in C:\xampp\htdocs\webspark-traffic\config.php on line 106
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 248
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_HOST" in C:\xampp\htdocs\webspark-traffic\config.php on line 249
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_URI" in C:\xampp\htdocs\webspark-traffic\config.php on line 249
+[04-Nov-2025 02:17:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\webspark-traffic\config.php:30) in C:\xampp\htdocs\webspark-traffic\config.php on line 250
+[04-Nov-2025 01:23:42 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+    [role] => superadmin
+)
+
+[04-Nov-2025 01:23:43 UTC] Password verify result: true
+[04-Nov-2025 01:23:43 UTC] Input password: Admin123!
+[04-Nov-2025 01:23:43 UTC] Stored hash: $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+[04-Nov-2025 01:52:24 UTC] Login Attempt: User: Muneeb12345, reCAPTCHA: provided
+[04-Nov-2025 01:52:24 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 01:52:24 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 01:52:25 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 01:52:25 UTC] Login Failed: Invalid credentials for user: Muneeb12345
+[04-Nov-2025 01:52:31 UTC] Login Attempt: User: testuser2024, reCAPTCHA: provided
+[04-Nov-2025 01:52:31 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 01:52:31 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 01:52:31 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 01:52:31 UTC] Login Successful: User: testuser2024, ID: 6
+[04-Nov-2025 01:58:59 UTC] Login Attempt: User: testuser2024, reCAPTCHA: provided
+[04-Nov-2025 01:58:59 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 01:58:59 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 01:58:59 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 01:59:00 UTC] Login Successful: User: testuser2024, ID: 6
+[04-Nov-2025 02:08:12 UTC] Registration Attempt: User: Arsalan_123, Email: Arsalan123@gmail.com, reCAPTCHA: provided
+[04-Nov-2025 02:08:12 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 02:08:12 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 02:08:12 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 02:08:12 UTC] Registration Successful: User: Arsalan_123, Email: Arsalan123@gmail.com
+[04-Nov-2025 02:10:08 UTC] Login Attempt: User: testuser2024, reCAPTCHA: provided
+[04-Nov-2025 02:10:08 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 02:10:08 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 02:10:08 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 02:10:08 UTC] Login Successful: User: testuser2024, ID: 6
+[04-Nov-2025 02:10:22 UTC] Login Attempt: User: Arsalan_123, reCAPTCHA: provided
+[04-Nov-2025 02:10:22 UTC] reCAPTCHA Debug: Function called. Response: provided
+[04-Nov-2025 02:10:22 UTC] reCAPTCHA Debug: Proceeding with real verification
+[04-Nov-2025 02:10:23 UTC] reCAPTCHA Debug: Google response: SUCCESS
+[04-Nov-2025 02:10:23 UTC] Login Successful: User: Arsalan_123, ID: 11
+[04-Nov-2025 02:58:01 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 10
+[04-Nov-2025 02:58:01 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 6
+[04-Nov-2025 02:58:01 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 6
+[04-Nov-2025 02:58:05 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 6
+[04-Nov-2025 02:58:05 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 1
+[04-Nov-2025 02:58:05 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
+[04-Nov-2025 03:07:14 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
+[04-Nov-2025 03:07:14 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 11
+[04-Nov-2025 03:07:14 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 10
+[04-Nov-2025 03:07:55 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
+[04-Nov-2025 03:07:55 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 11
+[04-Nov-2025 03:07:55 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 6
+[04-Nov-2025 03:07:57 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 10
+[04-Nov-2025 03:07:57 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 11
+[04-Nov-2025 03:07:57 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 1
+[04-Nov-2025 03:08:26 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 1
+[04-Nov-2025 03:08:26 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 11
+[04-Nov-2025 03:08:26 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
+[04-Nov-2025 03:09:10 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 10
+[04-Nov-2025 03:09:10 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 1
+[04-Nov-2025 03:09:10 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 10
+[04-Nov-2025 03:43:58 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 6
+[04-Nov-2025 03:43:58 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 10
+[04-Nov-2025 03:43:58 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 6
+[04-Nov-2025 03:43:59 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 11
+[04-Nov-2025 03:43:59 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 1
+[04-Nov-2025 03:43:59 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 10
+[04-Nov-2025 03:49:08 UTC] Feedback Form Data - Subject: my websites have no reach from ASIA, Type: general, User ID: 11
+[04-Nov-2025 03:49:08 UTC] Feedback submitted successfully for user: 11
+[04-Nov-2025 03:49:42 UTC] Found admin: Array
+(
+    [admin_id] => 1
+    [username] => admin
+    [password_hash] => $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+    [role] => superadmin
+)
+
+[04-Nov-2025 03:49:42 UTC] Password verify result: true
+[04-Nov-2025 03:49:42 UTC] Input password: Admin123!
+[04-Nov-2025 03:49:42 UTC] Stored hash: $2y$10$N6AqJvjmC.lxErKJPgEIbeCCJxpmaj99mrYTCAxMue0NfcAZe28g2
+[04-Nov-2025 03:49:42 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
+[04-Nov-2025 03:49:42 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 1
+[04-Nov-2025 03:49:42 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 6
+[04-Nov-2025 03:51:11 UTC] Traffic distributed: User 10 paid 1 credit for a visit to website 11 from visitor 6
+[04-Nov-2025 03:51:11 UTC] Traffic distributed: User 11 paid 1 credit for a visit to website 14 from visitor 6
+[04-Nov-2025 03:51:11 UTC] Traffic distributed: User 6 paid 1 credit for a visit to website 6 from visitor 1
