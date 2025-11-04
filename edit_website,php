@@ -1,0 +1,216 @@
+<?php
+require_once __DIR__ . '/auth_check.php';
+require_once __DIR__ . '/bootstrap.php';
+
+$pdo = getDBConnection();
+$message = '';
+
+// Get website ID from URL
+$website_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+
+// Fetch website data
+$website = null;
+if ($website_id > 0) {
+    $stmt = $pdo->prepare("SELECT * FROM websites WHERE website_id = ? AND user_id = ?");
+    $stmt->execute([$website_id, $_SESSION['user_id']]);
+    $website = $stmt->fetch();
+    
+    if (!$website) {
+        header('Location: my_websites.php');
+        exit();
+    }
+} else {
+    header('Location: my_websites.php');
+    exit();
+}
+
+// Handle form submission for editing
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_website'])) {
+    $website_url = sanitizeInput($_POST['website_url'], 'url');
+    $website_title = sanitizeInput($_POST['website_title'], 'string');
+    $website_description = sanitizeInput($_POST['website_description'], 'string');
+    $website_category = sanitizeInput($_POST['website_category'], 'string');
+    $target_countries = sanitizeInput($_POST['target_countries'], 'string');
+    $is_active = isset($_POST['is_active']) ? 1 : 0;
+
+    try {
+        // Validate URL
+        if (!filter_var($website_url, FILTER_VALIDATE_URL)) {
+            $message = '<div class="alert alert-danger">Please enter a valid website URL</div>';
+        } else {
+            // Update website
+            $stmt = $pdo->prepare("
+                UPDATE websites 
+                SET website_url = ?, website_title = ?, website_description = ?, 
+                    website_category = ?, target_countries = ?, is_active = ?, updated_at = NOW() 
+                WHERE website_id = ? AND user_id = ?
+            ");
+            $stmt->execute([
+                $website_url, 
+                $website_title, 
+                $website_description, 
+                $website_category, 
+                $target_countries, 
+                $is_active,
+                $website_id, 
+                $_SESSION['user_id']
+            ]);
+            
+            $message = '<div class="alert alert-success">Website updated successfully!</div>';
+            
+            // Refresh website data
+            $stmt = $pdo->prepare("SELECT * FROM websites WHERE website_id = ? AND user_id = ?");
+            $stmt->execute([$website_id, $_SESSION['user_id']]);
+            $website = $stmt->fetch();
+        }
+    } catch (PDOException $e) {
+        $message = '<div class="alert alert-danger">Error updating website: ' . $e->getMessage() . '</div>';
+    }
+}
+
+$page_title = "Edit Website - Webspark Traffic";
+require_once ROOT_PATH . '/includes/header.php';
+?>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="dashboard.php">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="my_websites.php">My Websites</a></li>
+                    <li class="breadcrumb-item active">Edit Website</li>
+                </ol>
+            </nav>
+            
+            <h2>Edit Website</h2>
+            <?php echo $message; ?>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Edit Website Details</h5>
+                </div>
+                <div class="card-body">
+                    <?php if ($website): ?>
+                    <form method="POST" action="">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="website_url" class="form-label">Website URL *</label>
+                                <input type="url" class="form-control" id="website_url" name="website_url" 
+                                       value="<?php echo htmlspecialchars($website['website_url']); ?>" 
+                                       placeholder="https://example.com" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="website_title" class="form-label">Website Title *</label>
+                                <input type="text" class="form-control" id="website_title" name="website_title" 
+                                       value="<?php echo htmlspecialchars($website['website_title']); ?>" 
+                                       placeholder="My Awesome Blog" required>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="website_description" class="form-label">Description</label>
+                            <textarea class="form-control" id="website_description" name="website_description" 
+                                      rows="3" placeholder="Brief description of your website"><?php echo htmlspecialchars($website['website_description']); ?></textarea>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="website_category" class="form-label">Category</label>
+                                <select class="form-select" id="website_category" name="website_category">
+                                    <option value="technology" <?php echo $website['website_category'] == 'technology' ? 'selected' : ''; ?>>Technology</option>
+                                    <option value="business" <?php echo $website['website_category'] == 'business' ? 'selected' : ''; ?>>Business</option>
+                                    <option value="health" <?php echo $website['website_category'] == 'health' ? 'selected' : ''; ?>>Health & Fitness</option>
+                                    <option value="education" <?php echo $website['website_category'] == 'education' ? 'selected' : ''; ?>>Education</option>
+                                    <option value="entertainment" <?php echo $website['website_category'] == 'entertainment' ? 'selected' : ''; ?>>Entertainment</option>
+                                    <option value="lifestyle" <?php echo $website['website_category'] == 'lifestyle' ? 'selected' : ''; ?>>Lifestyle</option>
+                                    <option value="other" <?php echo $website['website_category'] == 'other' ? 'selected' : ''; ?>>Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="target_countries" class="form-label">Target Countries</label>
+                                <select class="form-select" id="target_countries" name="target_countries">
+                                    <option value="worldwide" <?php echo $website['target_countries'] == 'worldwide' ? 'selected' : ''; ?>>Worldwide</option>
+                                    <option value="us" <?php echo $website['target_countries'] == 'us' ? 'selected' : ''; ?>>United States</option>
+                                    <option value="uk" <?php echo $website['target_countries'] == 'uk' ? 'selected' : ''; ?>>United Kingdom</option>
+                                    <option value="ca" <?php echo $website['target_countries'] == 'ca' ? 'selected' : ''; ?>>Canada</option>
+                                    <option value="au" <?php echo $website['target_countries'] == 'au' ? 'selected' : ''; ?>>Australia</option>
+                                    <option value="eu" <?php echo $website['target_countries'] == 'eu' ? 'selected' : ''; ?>>European Union</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="is_active" name="is_active" 
+                                       <?php echo $website['is_active'] ? 'checked' : ''; ?>>
+                                <label class="form-check-label" for="is_active">
+                                    Active (Receive traffic)
+                                </label>
+                            </div>
+                            <small class="text-muted">When inactive, your website won't receive traffic from the exchange.</small>
+                        </div>
+                        
+                        <div class="d-flex gap-2">
+                            <button type="submit" name="update_website" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i>Update Website
+                            </button>
+                            <a href="my_websites.php" class="btn btn-outline-secondary">Cancel</a>
+                        </div>
+                    </form>
+                    <?php else: ?>
+                        <div class="alert alert-danger">Website not found.</div>
+                        <a href="my_websites.php" class="btn btn-primary">Back to My Websites</a>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Website Information</h5>
+                </div>
+                <div class="card-body">
+                    <?php if ($website): ?>
+                    <div class="mb-3">
+                        <strong>Created:</strong><br>
+                        <?php echo date('F j, Y g:i A', strtotime($website['created_at'])); ?>
+                    </div>
+                    <?php if ($website['updated_at'] && $website['updated_at'] != $website['created_at']): ?>
+                    <div class="mb-3">
+                        <strong>Last Updated:</strong><br>
+                        <?php echo date('F j, Y g:i A', strtotime($website['updated_at'])); ?>
+                    </div>
+                    <?php endif; ?>
+                    <div class="mb-3">
+                        <strong>Status:</strong><br>
+                        <span class="badge bg-<?php echo $website['is_active'] ? 'success' : 'secondary'; ?>">
+                            <?php echo $website['is_active'] ? 'Active' : 'Inactive'; ?>
+                        </span>
+                    </div>
+                    <?php endif; ?>
+                    
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h6>Editing Tips</h6>
+                            <ul class="small mb-0">
+                                <li>Keep your website title clear and descriptive</li>
+                                <li>Use proper targeting for better visitor matching</li>
+                                <li>Deactivate sites temporarily if needed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+require_once ROOT_PATH . '/includes/footer.php';
+?>
